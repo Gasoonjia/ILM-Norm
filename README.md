@@ -1,2 +1,2 @@
-# Instance-Level-Meta-Normalization
+# Instance-Level Meta Normalization
 TBD
