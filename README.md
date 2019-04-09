@@ -33,7 +33,7 @@ python train.py --infer [checkpoint folder] --data [cifar-10/cifar-100 folder]
 For ImageNet the folder containing the dataset needs to be supplied
 
 ```sh
-python imageNet.py --data [imagenet-folder]
+python imageNet.py --data [imagenet folder]
 ```
 
 You can also infer the network with the following command:
