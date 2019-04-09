@@ -1,7 +1,7 @@
 # Instance-Level Meta Normalization (ILM-Norm)
 This repository contains a [PyTorch](http://pytorch.org/) implementation of the paper [Instance-Level Meta Normalization](https://github.com/Gasoonjia/ILM-Norm) presented at CVPR 2019. 
 
-The code is based on the [PyTorch example for training ResNet on Imagenet](https://github.com/pytorch/examples/tree/master/imagenet) and [Train cifar10 with Pytorch](https://github.com/kuangliu/pytorch-cifar).
+The code is based on the [PyTorch example for training ResNet on Imagenet](https://github.com/pytorch/examples/tree/master/imagenet) and [Train CIFAR10 with PyTorch](https://github.com/kuangliu/pytorch-cifar).
 
 ## Table of Contents
 0. [Introduction](#introduction)
