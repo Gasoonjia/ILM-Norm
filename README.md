@@ -1,7 +1,5 @@
 # Instance-Level Meta Normalization (ILM-Norm)
-This repository contains implementation code for the project 'Instance-Level Meta Normalization' (CVPR 2019).  
-
-This repository contains a [PyTorch](http://pytorch.org/) implementation of the paper [Convolutional Networks with Adaptive Inference Graphs](https://arxiv.org/abs/1711.11503) presented at ECCV 2018. 
+This repository contains a [PyTorch](http://pytorch.org/) implementation of the paper [Instance-Level Meta Normalization](https://github.com/Gasoonjia/ILM-Norm) presented at CVPR 2019. 
 
 The code is based on the [PyTorch example for training ResNet on Imagenet](https://github.com/pytorch/examples/tree/master/imagenet) and [Train cifar10 with Pytorch](https://github.com/kuangliu/pytorch-cifar).
 
