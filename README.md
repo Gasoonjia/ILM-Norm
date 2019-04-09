@@ -1,13 +1,13 @@
 # Instance-Level Meta Normalization (ILM-Norm)
-This repository contains a [PyTorch](http://pytorch.org/) implementation of the paper [Instance-Level Meta Normalization](https://github.com/Gasoonjia/ILM-Norm) presented at CVPR 2019. 
+This repository contains a [PyTorch](http://pytorch.org/) implementation of the paper [Instance-Level Meta Normalization](https://arxiv.org/abs/1904.03516) presented at CVPR 2019. 
 
 The code is based on the [PyTorch example for training ResNet on Imagenet](https://github.com/pytorch/examples/tree/master/imagenet) and [Train CIFAR10 with PyTorch](https://github.com/kuangliu/pytorch-cifar).
 
 ## Table of Contents
 0. [Introduction](#introduction)
 0. [Usage](#usage)
-0. [Citing](#citing)
 0. [Requirements](#requirements)
+0. [Citing](#citing)
 
 ## Introduction
 This paper presents a normalization mechanism called Instance-Level Meta Normalization (ILM-Norm) to address a learning-to-normalize problem. ILM-Norm learns to predict the normalization parameters via both the feature feed-forward and the gradient back-propagation paths.
@@ -53,5 +53,11 @@ For compatibility to newer versions, please make a pull request.
 If you find this helps your research, please consider citing:
 
 ```
-TBD
+@conference{Jia2019,
+title = {Instance-Level Meta Normalization},
+author = {Songhao Jia and Ding-Jie Chen and Hwann-Tzong Chen},
+year = {2019},
+journal = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+}
+```
 ```
