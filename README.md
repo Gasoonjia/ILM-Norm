@@ -7,6 +7,7 @@ The code is based on the [PyTorch example for training ResNet on Imagenet](https
 0. [Introduction](#introduction)
 0. [Usage](#usage)
 0. [Requirements](#requirements)
+0. [Checkpoint](#checkpoint)
 0. [Citing](#citing)
 
 ## Introduction
@@ -48,6 +49,9 @@ This implementation is developed for
 0. CUDA 9.1
 
 For compatibility to newer versions, please make a pull request.
+
+## Checkpoint
+TBD
 
 ## Citing
 If you find this helps your research, please consider citing:
