@@ -5,14 +5,24 @@ The code is based on the [PyTorch example for training ResNet on Imagenet](https
 
 ## Table of Contents
 0. [Introduction](#introduction)
-0. [Usage](#usage)
 0. [Requirements](#requirements)
+0. [Usage](#usage)
 0. [Checkpoint](#checkpoint)
 0. [Citing](#citing)
 
 ## Introduction
 This paper presents a normalization mechanism called Instance-Level Meta Normalization (ILM-Norm) to address a learning-to-normalize problem. ILM-Norm learns to predict the normalization parameters via both the feature feed-forward and the gradient back-propagation paths.
 ILM-Norm provides a meta normalization mechanism and has several good properties. It can be easily plugged into existing instance-level normalization schemes such as Instance Normalization, Layer Normalization, or Group Normalization. ILM-Norm normalizes each instance individually and therefore maintains high performance even when small mini-batch is used. The experimental results show that ILM-Norm well adapts to different network architectures and tasks, and it consistently improves the performance of the original models.
+
+
+## Requirements 
+This implementation is developed for 
+
+0. Python 3.6.5
+0. PyTorch 1.0.1
+0. CUDA 9.1
+
+For compatibility to newer versions, please make a pull request.
 
 ## Usage
 There are two training files. One for CIFAR-10 and Cifar-100 `train.py` and the other for ImageNet `imageNet.py`.
@@ -40,15 +50,6 @@ You can also infer the network with the following command:
 ```sh
 python imageNet.py --infer [checkpoint folder] --data [imagenet folder]
 ```
-
-## Requirements 
-This implementation is developed for 
-
-0. Python 3.6.5
-0. PyTorch 1.0.1
-0. CUDA 9.1
-
-For compatibility to newer versions, please make a pull request.
 
 ## Checkpoint
 TBD
