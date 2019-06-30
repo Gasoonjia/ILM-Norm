@@ -52,7 +52,8 @@ python imageNet.py --infer [checkpoint folder] --data [imagenet folder]
 ```
 
 ## Checkpoint
-TBD
+
+ilm+gn on imageNet: [link](https://drive.google.com/open?id=1PbnmCmmILmAvCj7fjTJJ6eBK2GiVXONU)
 
 ## Citing
 If you find this helps your research, please consider citing:
